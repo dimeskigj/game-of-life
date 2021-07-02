@@ -85,7 +85,7 @@ def recursive_helper(start, end, matrix, imgs):
 
 if __name__ == '__main__':
     # find more initial configurations in starters.py #
-    initial_config = gosper_glider_gun
+    initial_config = gliders
     N = 30
     images = simulate_iterations(N, initial_config)
 
